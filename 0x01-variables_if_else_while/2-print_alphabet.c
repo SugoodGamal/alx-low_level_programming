@@ -8,7 +8,7 @@
  * Return: Always 0 (Success)
 */
 int main(void)
-
+i
 {
 	char ch = 'a';
 
@@ -17,7 +17,7 @@ int main(void)
 		putchar(ch);
 		ch++;
 	}
-	putchar("\n");
+	putchar('\n');
 
 	return (0);
 }
