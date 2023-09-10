@@ -9,7 +9,7 @@
 */
 int main(void)
 {
-	int gigit = 0;
+	int digit = 0;
 
 	while (digit <= 9)
 	{
@@ -17,11 +17,12 @@ int main(void)
 
 		if (digit != 9)
 		{
-			putchar(',')
-			putchar(' ')
+			putchar(',';
+			putchar(' ');
 		}
 		diit++;
 	}
 	puchar('\n');
+
 	return (0);
 }
