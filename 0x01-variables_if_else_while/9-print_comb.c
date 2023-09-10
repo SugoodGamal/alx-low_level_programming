@@ -20,9 +20,9 @@ int main(void)
 			putchar(',';
 			putchar(' ');
 		}
-		diit++;
+		digit++;
 	}
-	puchar('\n');
+	putchar('\n');
 
 	return (0);
 }
