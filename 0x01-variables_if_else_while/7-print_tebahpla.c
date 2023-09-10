@@ -3,7 +3,7 @@
 /**
  * main - Entery point
  *
- * Description: print all alphabet in reverse
+ * Description: print a - z in reverse
  *
  * Return: Always 0 (Success)
 */
@@ -14,7 +14,7 @@ int main(void)
 	while (ch >= 'a')
 	{
 		putchar(ch);
-		ch++;
+		ch--;
 	}
 	putchar('\n');
 	return (0);
