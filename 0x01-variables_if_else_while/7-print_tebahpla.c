@@ -3,7 +3,7 @@
 /**
  * main - Entery point
  *
- * Description: print all alphabet letters except q and e
+ * Description: print all alphabet in reverse
  *
  * Return: Always 0 (Success)
 */
