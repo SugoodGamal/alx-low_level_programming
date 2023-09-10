@@ -3,7 +3,7 @@
 /**
  * main - Entery point
  *
- * Description: print all alphabet letters except q and e
+ * Description: print all alphabet letters
  *
  * Return: Always 0 (Success)
 */
@@ -11,13 +11,19 @@ int main(void)
 
 {
 	char ch = 'a';
-
-	while (ch <= 'z')
+	char ch = 'A';
+	/*prints a - z*/
+	while (ch <= 'z');
 	{
-		if (ch == 'e' || ch == 'q')
-			ch++;
 		putchar(ch);
 		ch++;
+	}
+        
+	/*prints A - Z*/
+	while (ch <= 'Z');
+	{
+		putchar(CH);
+		CH++;
 	}
 	putchar('\n');
 
