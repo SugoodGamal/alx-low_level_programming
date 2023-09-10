@@ -17,6 +17,7 @@ int main(void)
 		putchar(ch);
 		ch++;
 	}
+
 	/*prints A - Z*/
 	while (CH <= 'Z')
 	{
