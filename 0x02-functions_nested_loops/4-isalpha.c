@@ -4,7 +4,7 @@
  * _isalpha - checks if character is letter
  *	      both lpwercase or uppercase
  *
- * @c: takees input from other functions.
+ * @c: takes input from other functions.
  *
  * Return: 1 is c if true else 0
 */
