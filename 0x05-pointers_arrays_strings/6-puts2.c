@@ -5,7 +5,7 @@
  * @str: input
  * Return: print
 */
-void puts(char *str)
+void _puts(char *str)
 {
 	int longi = 0;
 	int t = 0;
@@ -26,4 +26,4 @@ void puts(char *str)
 	}
 	}
 	_putchar('\n');
-}
+}}
