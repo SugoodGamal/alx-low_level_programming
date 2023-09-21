@@ -6,7 +6,7 @@
  * @src: input value
  * @n: input value
  *
- * Return: void
+ * Return: dest
 */
 char *_strncat(char *dest, char *src, int n);
 {
