@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * _strncpy - copy a string
  * using at most n bytes from src
@@ -18,7 +19,7 @@ char *_strncpy(char *dest, char *src, int n)
 		dest[j] = src[j];
 		j++;
 	}
-	while (j < 0)
+	while (j < n)
 	{
 		dest[j] = '\0';
 		j++;
