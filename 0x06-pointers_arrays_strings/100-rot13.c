@@ -12,10 +12,9 @@ char *rot13(char *s)
 	int i;
 	int j;
 	char data1[] =
-"ABCDEFGIHJKLMNOPQRSTUVWXZabcdefghijklmnopqrstuvwxyz";
+"ABCDEFGHIJKLMNOPQRSTUVWXZabcdefghijklmnopqrstuvwxyz";
 	char datarot[] =
 "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
-
 	for (i = 0; s[i] != '\0'; i++)
 	{
 		for (j = 0; j < 52; j++)
